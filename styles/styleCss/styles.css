@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(253, 229, 229);
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-style: italic "Great Vibes", cursive;
+}
+body nav a img {
+  height: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(78, 70, 70);
+  color: white;
+  margin: 0;
+  padding: none;
+  align-items: start;
+  font-size: 20px;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Great Vibes", cursive;
+  background-color: rgb(78, 70, 70);
+}
+
+#imagenheader {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0px solid black;
+}
+
+#logoheader {
+  height: 55px;
+  width: 55px;
+  padding: 10px;
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+nav {
+  background-color: rgb(78, 70, 70);
+  border: 1px solid black;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-items: end;
+}
+
+.nav-link {
+  margin: 0;
+}
+
+.card {
+  margin: 35px;
+  radius: 5px;
+}
+
+.card-group {
+  background-color: rgb(253, 229, 229);
+  margin: 0px;
+  background-clip: content-box;
+}
+
+.card-body {
+  background-color: rgb(253, 229, 229);
+}
+
+.card-text {
+  border: 0;
+}
+
+.footertipo {
+  background-color: rgb(78, 70, 70);
+  color: white;
+  padding: 20px;
+  font-style: "Great Vibes", cursive;
+}
+
+ul {
+  margin-left: 100;
+  padding-left: 50;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-items: end;
+}
+
+a {
+  margin: 10px;
+  color: white;
+}
+
+p {
+  font-size: 22px;
+  height: auto;
+  width: 85%;
+  padding: 10;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.header-text {
+  font-size: 1.8em;
+  font-family: "Great Vibes", cursive;
+}
+
+.footertipo h4 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  font-size: 0;
+}
+
+.container2 {
+  margin: 40px;
+  background-color: rgb(253, 229, 229);
+}
+
+@media screen and (max-width: 767px) {
+  #logoheader {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+  }
+}/*# sourceMappingURL=styles.css.map */
