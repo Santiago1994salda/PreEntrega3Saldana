@@ -1,5 +1,6 @@
+@charset "UTF-8";
 body {
-  background-color: rgb(253, 229, 229);
+  background-color: rgb(253, 229, 229) !important;
   margin: 0;
   padding: 0;
   overflow: auto;
@@ -67,13 +68,13 @@ nav {
 }
 
 .card-group {
-  background-color: rgb(253, 229, 229);
+  background-color: rgb(253, 229, 229) !important;
   margin: 0px;
   background-clip: content-box;
 }
 
 .card-body {
-  background-color: rgb(253, 229, 229);
+  background-color: rgb(253, 229, 229) !important;
 }
 
 .card-text {
@@ -139,4 +140,62 @@ h2 {
     width: 25px;
     padding: 5px;
   }
+}
+#myCarousel {
+  margin: 5px;
+}
+
+.carousel-item {
+  margin: 25px;
+  padding: 25px;
+  background-color: red;
+}
+
+.carruselTipo {
+  margin: 10px;
+  background-color: red;
+}
+
+.carousel-control-prev {
+  max-height: 300px;
+}
+
+.color-3fondo {
+  background-color: rgb(253, 229, 229);
+  padding: 25px;
+  margin: 25px;
+}
+
+.tabñ {
+  background-color: rgb(253, 229, 229);
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-img-center {
+  padding: 100px;
+}
+
+.promo-amigas {
+  margin: 25px;
+  border: 2px solid !important;
+  padding-bottom: 5px;
+}
+
+.container-form {
+  margin: 0px auto !important;
+  padding: 100px !important;
+  background-color: rgb(78, 70, 70);
+  color: white;
+}
+
+.form-text {
+  color: white;
+}
+
+.contacto-titulo {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  text-justify: center;
 }/*# sourceMappingURL=styles.css.map */
